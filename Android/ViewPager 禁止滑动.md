@@ -3,7 +3,7 @@
 * 设置一个标志位来标记可否滑动
 * 根据标志位控制 onInterceptTouchEvent、onTouchEvent 的返回值
 * 代码如下
-* ```java     
+```java     
 @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         if (!canScroll) {
