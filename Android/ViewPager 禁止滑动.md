@@ -20,9 +20,6 @@
         return super.onTouchEvent(ev);
     }
  ```
- 
-* hh
-
 ### 2.修改 scrollTo 方法来控制滑动生效与否
 代码如下
 ```java
@@ -31,5 +28,4 @@
         if (canScroll)
             super.scrollTo(x, y);
     }
-```
-    
+```  
